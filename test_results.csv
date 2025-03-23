@@ -1,0 +1,11 @@
+Test Case,Status
+generated_tests.py::test_login[standard_user-secret_sauce-True],PASSED
+generated_tests.py::test_login[locked_out_user-secret_sauce-False],PASSED
+generated_tests.py::test_login[invalid_user-secret_sauce-False],PASSED
+generated_tests.py::test_login[standard_user-wrong_password-False],PASSED
+generated_tests.py::test_login[-secret_sauce-False],PASSED
+generated_tests.py::test_login[standard_user--False],PASSED
+generated_tests.py::test_login[,standard_user
+generated_tests.py::test_login[standard_user-,secret_sauce
+FAILED,generated_tests.py::test_login[
+FAILED,generated_tests.py::test_login[standard_user-

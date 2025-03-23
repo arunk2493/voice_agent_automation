@@ -1,0 +1,118 @@
+
+        <html>
+        <head>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 20px;
+                    padding: 20px;
+                    background-color: #f4f4f4;
+                    text-align: center;
+                }
+                h2 {
+                    color: #333;
+                }
+                .status {
+                    font-size: 20px;
+                    font-weight: bold;
+                    padding: 10px;
+                    border-radius: 5px;
+                    display: inline-block;
+                    margin-bottom: 15px;
+                }
+                .success { background-color: #4CAF50; color: white; }
+                .failure { background-color: #FF5733; color: white; }
+                table {
+                    width: 80%;
+                    margin: auto;
+                    border-collapse: collapse;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                    background: white;
+                }
+                th, td {
+                    padding: 12px;
+                    border: 1px solid #ddd;
+                    text-align: center;
+                }
+                th {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                tr:hover { background-color: #f1f1f1; }
+                .passed { color: green; font-weight: bold; }
+                .failed { color: red; font-weight: bold; }
+                .warning { color: orange; font-weight: bold; }
+            </style>
+        </head>
+        <body>
+            <h2>Test Execution Results</h2>
+            <div class="status success">
+                ✅ ALL TESTS PASSED
+            </div>
+            <p><strong>Execution Time:</strong> 71.50 sec</p>
+            <table>
+                <tr>
+                    <th>Test Case</th>
+                    <th>Status</th>
+                    <th>Details</th>
+                </tr>
+        
+                <tr>
+                    <td>generated_tests.py::test_login_scenarios[standard_user-secret_sauce-products]</td>
+                    <td class="passed">✅ PASSED</td>
+                    <td><a href="test_case_details.html">View Code</a></td>
+                </tr>
+            
+                <tr>
+                    <td>generated_tests.py::test_login_scenarios[locked_out_user-secret_sauce-error]</td>
+                    <td class="passed">✅ PASSED</td>
+                    <td><a href="test_case_details.html">View Code</a></td>
+                </tr>
+            
+                <tr>
+                    <td>generated_tests.py::test_login_scenarios[problem_user-secret_sauce-products]</td>
+                    <td class="passed">✅ PASSED</td>
+                    <td><a href="test_case_details.html">View Code</a></td>
+                </tr>
+            
+                <tr>
+                    <td>generated_tests.py::test_login_scenarios[performance_glitch_user-secret_sauce-products]</td>
+                    <td class="passed">✅ PASSED</td>
+                    <td><a href="test_case_details.html">View Code</a></td>
+                </tr>
+            
+                <tr>
+                    <td>generated_tests.py::test_login_scenarios[-secret_sauce-error]</td>
+                    <td class="passed">✅ PASSED</td>
+                    <td><a href="test_case_details.html">View Code</a></td>
+                </tr>
+            
+                <tr>
+                    <td>generated_tests.py::test_login_scenarios[standard_user--error]</td>
+                    <td class="passed">✅ PASSED</td>
+                    <td><a href="test_case_details.html">View Code</a></td>
+                </tr>
+            
+                <tr>
+                    <td>generated_tests.py::test_login_scenarios[</td>
+                    <td class="warning">⚠️ -</td>
+                    <td><a href="test_case_details.html">View Code</a></td>
+                </tr>
+            
+                <tr>
+                    <td>generated_tests.py::test_login_scenarios[invalid_user-invalid_password-error]</td>
+                    <td class="passed">✅ PASSED</td>
+                    <td><a href="test_case_details.html">View Code</a></td>
+                </tr>
+            
+                <tr>
+                    <td>generated_tests.py::test_login_scenarios[standard_user-wrong_password-error]</td>
+                    <td class="passed">✅ PASSED</td>
+                    <td><a href="test_case_details.html">View Code</a></td>
+                </tr>
+            
+            </table>
+        </body>
+        </html>
+        

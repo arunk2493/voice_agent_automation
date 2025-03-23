@@ -1,0 +1,11 @@
+google-generativeai
+speechrecognition
+pyttsx3
+pytest-playwright
+playwright
+playwright-stealth
+pytest-xdist
+selenium
+pytest
+webdriver-manager
+pytest-asyncio
