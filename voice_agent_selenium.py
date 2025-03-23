@@ -315,7 +315,6 @@ def main():
         test_cases = get_ai_response(user_input)
 
         if test_cases:
-            print(f"📝 Generated Test Cases:\n{test_cases}")
             speak("Test cases generated. Saving and executing now.")
 
             test_file = save_tests_to_file(test_cases)
