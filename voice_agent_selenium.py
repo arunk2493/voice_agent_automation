@@ -10,9 +10,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 import pytest
+import os
 
 # Configure Gemini AI 🤖✨
-genai.configure(api_key="AIzaSyDd2LxbeMfsqVnAXFJCXXljGh8SI2iY55s")
+api_key = os.getenv("GEMINI_API_KEY")
+genai.configure(api_key=api_key)
 
 # Initialize text-to-speech engine 🎙️
 engine = pyttsx3.init()
