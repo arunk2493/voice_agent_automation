@@ -29,5 +29,3 @@ AUT url is hard coded
 <img width="1445" alt="Screenshot 2025-03-24 at 1 11 47 AM" src="https://github.com/user-attachments/assets/16488001-274e-4972-8c6a-8ebd65d80e21" />
 
 <img width="1446" alt="Screenshot 2025-03-24 at 1 12 02 AM" src="https://github.com/user-attachments/assets/8706449b-4f0c-43e6-9916-f861b3ab38b4" />
-
-
