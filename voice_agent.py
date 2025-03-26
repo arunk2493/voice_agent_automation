@@ -9,7 +9,7 @@ from playwright.sync_api import sync_playwright
 from playwright_stealth import stealth
 
 # Configure Gemini AI
-genai.configure(api_key="AIzaSyDd2LxbeMfsqVnAXFJCXXljGh8SI2iY55s")
+genai.configure(api_key=ENV["API_KEY"])
 
 # Initialize text-to-speech engine
 engine = pyttsx3.init()
